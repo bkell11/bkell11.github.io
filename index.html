@@ -3,28 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio</title>
+    <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <header>
-        <h1 id="name">Blake Keller</h1> 
-        <p id="hp">About | Portfolio | Contact</p>
+    <header id="indexhead">
+       <div class="container"> 
+            <h1 id="me">Blake Keller</h1> 
+            <nav>
+                <a href="index.html">About Me</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    
-    <div class="wrapper">
-        
-        <section id="bio-section">
-            <h2 id="about-me">About Me</h2>                 
-            <img id="bio-image" src="https://placehold.it/200x200" alt="Blake Keller">
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h2>About Me</h2>                 
+            <img id="bio-image" src="assets/images/Herriman Photo.jpg" alt="Blake Keller">
             <p>My name is Blake Keller.  I am married to my beautiful wife Jordyn.  We have two toy australian shepherds, a boy named Vader and a girl named Cinnamon.  They are pretty much our kids and we would do anything for them.</p>
             <p>I attended Weber State University to play college football for the Wildcats.  I received my bachelor's degree in Electronic Media Communications.  I originally wanted to get into sports broadcasting, but my life just ended up taking me in a different direction.</p>
             <p>For the last 5 years I have been working for Federal Express.  I started out in customer service and have since become a driver for them, which I much prefer.  During the fall the last 5 years, I have also coached football at Herriman High School. We won the 5a state championship in 2015.</p>
             <p>Unfortunately, this year I am not going to continue to coach.  I have decided to take up this bootcamp class in order to change careers and have more opportunities.  I have two friends who work in the computer programming field and I can't wait to join them.</p>       
         </section>
 
-    </div>  
-</body>
+        <section class="connectbar">
+            <div id="connect">
+                <h3>Connect with Me</h3>
+
+                <img src="assets/images/if_Github_1298743.png" class="social" alt="GitHub">
+                <img src="assets/images/if_linkedin_295878.png" class="social" alt="LinkedIn">
+                <img src="assets/images/if_StackOverflow_2503945.png" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+    </div>    
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Blake Keller
+        </div>
+    </footer>
+    </body>
 </html>

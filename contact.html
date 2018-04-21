@@ -3,12 +3,63 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
+    <header id="indexhead">
+        <div class="container"> 
+            <h1 id="me">Blake Keller</h1> 
+            <nav>
+                <a href="index.html">About Me</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
     
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h2>Contact</h2>                 
+            
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Luna Lovegood" required="required">
+                    </li>
+
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@hotmail.com" required="required">
+                    </li>
+
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
+        </section>
+
+        <section class="connectbar">
+            <div id="connect">
+                <h3>Connect with Me</h3>
+
+                <img src="assets/images/if_Github_1298743.png" class="social" alt="GitHub">
+                <img src="assets/images/if_linkedin_295878.png" class="social" alt="LinkedIn">
+                <img src="assets/images/if_StackOverflow_2503945.png" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+    </div>  
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Blake Keller
+        </div>
+    </footer>
 </body>
 </html>
